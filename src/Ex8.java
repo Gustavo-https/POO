@@ -5,7 +5,7 @@ class Ex8 {
         Scanner leitor = new Scanner(System.in);
 
         System.out.print("Fala um número: ");
-        float leitor1 = leitor.nextInt();;
+        int leitor1 = leitor.nextInt();;
 
         double quadrado = Math.pow(leitor1, 2);
         double cubo = Math.pow(leitor1, 3);
